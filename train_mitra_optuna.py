@@ -16,7 +16,7 @@ RANDOM_STATE = 42
 DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
 N_TRIALS = 25  # Número de tentativas do Optuna
 
-print(f"⚡ Rodando MITRA (Transformer) no dispositivo: {DEVICE}")
+print(f"Rodando MITRA (Transformer) no dispositivo: {DEVICE}")
 
 # Loading
 DATA_DIR = 'data'
